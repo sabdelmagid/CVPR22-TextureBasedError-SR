@@ -10,6 +10,8 @@ See this [notebook](https://github.com/sabdelmagid/CVPR22-TextureBasedError-SR/b
 
 #### TODO 
 add citation for GradientNet code
+add notebook to load pretrained texture classifier and infer on SR patches
+
 
 ### Citation
 If you find the code helpful in your resarch or work, please cite the following papers:
