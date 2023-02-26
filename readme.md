@@ -2,6 +2,13 @@
 Project Page
 
 
+#### First DIV2K LR_bicubic using https://github.com/sanghyun-son/bicubic_pytorch
+We need access to the same kernel used to corrupt the images. 
+First download DIV2K, and see notebook [] to generate using the core.py above. 
+
+
+
+
 ### Citation
 If you find the code helpful in your resarch or work, please cite the following papers:
 
