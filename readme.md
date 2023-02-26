@@ -1,7 +1,7 @@
 #  Texture-based Error Analysis for Image Super-Resolution (CVPR 22).
 
 
-#### First DIV2K LR_bicubic using this [implementation](https://github.com/sanghyun-son/bicubic_pytorch). 
+#### First generate the corrupted DIV2K LR_bicubic using this [bicubic interpolator implementation](https://github.com/sanghyun-son/bicubic_pytorch). 
 Since we are using python and need to use bicubic upsampling for some of our experiments, we regenerate the low resolution DIV2K images. When you download the original DIV2K images, you will find the matlab corrupted LRs. Ignore those. Instead use the [preprocessing notebook](https://github.com/sabdelmagid/CVPR22-TextureBasedError-SR/blob/main/%5BPRE%5D%20Preprocessing%20Datasets%20-%20post%20to%20github%20version.ipynb) to regenerate the LRs using a python bicubic downsampler.   
 Otherwise, if we try to use any of the available bicubic interpolators in Python, there will be inconsitency issues because Matlab has a slightly different bicubic interpolation implementation. 
 
