@@ -8,6 +8,9 @@ Otherwise, if we try to use any of the available bicubic interpolators in Python
 #### Figure 3 in the paper, Entropy of Gradients vs. Bicubic PSNR
 
 
+#### TODO 
+add citation for GradientNet code
+
 ### Citation
 If you find the code helpful in your resarch or work, please cite the following papers:
 
