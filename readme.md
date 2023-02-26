@@ -6,7 +6,7 @@ Since we are using python and need to use bicubic upsampling for some of our exp
 Otherwise, if we try to use any of the available bicubic interpolators in Python, there will be inconsitency issues because Matlab has a slightly different bicubic interpolation implementation. 
 
 #### Figure 3 in the paper, Entropy of Gradients vs. Bicubic PSNR
-
+See this [notebook](https://github.com/sabdelmagid/CVPR22-TextureBasedError-SR/blob/main/____Figure3-Entropy%20vs%20PSNR%20-%20post%20to%20github%20version.ipynb)
 
 #### TODO 
 add citation for GradientNet code
